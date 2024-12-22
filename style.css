@@ -1,0 +1,76 @@
+body {
+  background-image: url(./gallery/background.jpg);
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 15px 20px;
+  position: sticky;
+}
+
+.Links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: #032e48;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  margin: 90px 250px;
+  padding: 20px 0;
+}
+
+.text-content {
+  margin-right: 20px;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.text-content p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.text-content h1 {
+  margin: 10px 0;
+  font-size: 38px;
+}
+
+.image-content img {
+  border-radius: 10px;
+  height: 300px;
+  padding-left: 120px;
+}
+
+.Logo a:hover {
+  color: rgb(0, 221, 255);
+  transition: 0.8s;
+}
+
+.Links a:hover {
+  color: rgb(0, 221, 255);
+  transition: 0.8s;
+}
+
+.Logo a {
+  color: rgb(0, 255, 255);
+}
